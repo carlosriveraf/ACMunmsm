@@ -8,6 +8,7 @@ int GCD(int a, int b){
 
 int main(){
 	
+	//Se halla el GCD usando el algoritmo de Euclides
 	//Escribir el código
 	
 	return 0;
