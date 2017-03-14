@@ -13,6 +13,7 @@ int bigmod(ull a,ull p,ull m){
 
 int main(){
 	
+	// -----> big mod es parecido a pow(a,b)%m
 	//Escribir el código
 	
 	return 0;
