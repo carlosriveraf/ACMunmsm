@@ -2,14 +2,13 @@
 using namespace std;
 
 int main(){
+	int N; cin>>N;
+	int a[N];
 	
-	int n; scanf( "%i", &n );
-	int a[n];
+	for(int i=0 ; i<N ; i++ ){ cin>>a[i]; }
 	
-	for(int i=0 ; i<n ; i++ ){ scanf("%i", &a[i]); }
-	
-	//Se ordena ascendentemente
-	sort(a,a+n);
+	//Se ordena todo el arrays ascendentemente.
+	sort( a , a + N );
 				
 	return 0;
 }
