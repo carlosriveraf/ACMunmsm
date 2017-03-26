@@ -6,7 +6,7 @@ int main(){
 	
 	//Código 
 	//Ordena un vector ascendentemente
-	sort ( v.begin() , v.end() );
+	sort ( v.begin(), v.end() );
 	
 	return 0;
 }
