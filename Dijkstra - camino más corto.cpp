@@ -63,7 +63,7 @@ int dijkstra( int S, int T , vector<Node> ady[] , int n ) {
 		if( visited[u] ) { continue; }
 		visited[u] = true;
 		
-		for( int i=0 ; i < int( ady[u].size() ) ; i++ ) {
+		for( int i = 0 ; i < int( ady[u].size() ) ; i++ ) {
 			v = ady[u][i].first;
 			d = ady[u][i].second;
 			
